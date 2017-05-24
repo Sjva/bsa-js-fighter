@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color:white;
+}
+h2{
+    text-align: center;
+    margin-top:5%;
+}
+button{
+    top:50%;
+    width: 200px;
+    height: 60px;
+    display:block;
+    margin:0 auto;
+    margin-top:10%;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 7px;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    margin-top:2%;
+}
+button:disabled {
+    background-color: grey;
+    color:white;
+}
